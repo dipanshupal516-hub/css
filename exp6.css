@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: #f8f8f8;
+}
+
+.nav {
+    background: #ececec;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 4px;
+    background: #b5d9ff;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #8ab3e6;
+    float: left;
+}
+
+.nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.submenu {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.submenu button {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #caffc4;
+    border: 1px solid #7cd17a;
+    margin: 5px;
+    cursor: pointer;
+}
